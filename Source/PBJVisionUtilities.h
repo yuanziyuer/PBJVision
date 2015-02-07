@@ -50,6 +50,8 @@
 
 + (uint64_t)availableDiskSpaceInBytes;
 
++ (UIImage*)thumbnailImageForVideo:(NSURL *)videoURL atTime:(NSTimeInterval)time;
+
 @end
 
 @interface NSString (PBJExtras)
